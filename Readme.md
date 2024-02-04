@@ -1,5 +1,9 @@
 # Coding Assessment L-2 (Marmeto)
 
+## Hosting 
+This project is hosted on Netlify.
+Here is the link - https://marmeto-assignment-neelam.netlify.app/
+
 <img width="950" alt="d" src="https://github.com/NeelamAryaa/marmeto/assets/62146391/d1139f8d-4824-410c-b71d-b355f0568f52">
 
 
@@ -53,9 +57,7 @@
 
 
 
-## Hosting 
-This project is hosted on Netlify.
-Here is the link - https://marmeto-assignment-neelam.netlify.app/
+
 
 
 
