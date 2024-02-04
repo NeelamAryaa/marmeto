@@ -1,5 +1,3 @@
-// console.log("Connected");
-
 function calculatePercentageOff(price, comparePrice) {
   const percentageOff = ((comparePrice - price) / comparePrice) * 100;
   return parseInt(percentageOff) + "%";
@@ -33,17 +31,18 @@ function populateData(data) {
       `--color`,
       Object.values(product.options[0].values[i])[0]
     );
-
-    // console.log(Object.keys(product.options[0].values[i])[0]);
-
-    // console.log(square_radio[i]);
   }
 
   const allSize = document.querySelectorAll("input[name='size']");
   for (let i = 0; i < product.options[1].values.length; i++) {
     allSize[i].setAttribute(`id`, product.options[1].values[i]);
   }
-  // console.log("allsize", allSize);
+
+  const all_size = document.querySelectorAll(".size label");
+
+  for (let i = 0; i < product.options[1].values.length; i++) {
+    all_size[i].setAttribute(`for`, product.options[1].values[i]);
+  }
 
   const allColors = document.querySelectorAll("input[name='color']");
   for (let i = 0; i < product.options[0].values.length; i++) {
